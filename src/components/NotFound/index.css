@@ -1,0 +1,17 @@
+.notfound-bg {
+  background-color: #010001;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.not-found-img {
+  min-height: 400px;
+  min-width: 300px;
+}
+
+.notfound-container{
+    text-align: center;
+}

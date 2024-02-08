@@ -1,0 +1,162 @@
+.failure-page-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-button {
+  border-radius: 5px;
+  background-color: #4946de;
+  color: white;
+  padding: 5px;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.job-details-item-bg {
+  background-color: black;
+  color: white;
+  font-family: roboto;
+  padding: 60px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card-bg {
+  background-color: #272625;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+}
+
+.job-container {
+  display: flex;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  /* margin-right: 10px; */
+  height: 120px;
+  width: 120px;
+  padding: 25px;
+}
+
+.job-card-icon {
+  margin-right: 10px;
+}
+
+.location-ele {
+  margin-right: 15px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.star-icon {
+  color: gold;
+  margin-right: 4px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.job-description-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.skills-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin: 8px;
+}
+
+.skill-img {
+  height: 40px;
+  width: 40px;
+}
+
+.skill-title {
+  margin-left: 10px;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.life-at-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.life-at-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.visit-container {
+  all: initial;
+  display: flex;
+  align-items: center;
+  color: #8389b4;
+  font-family: roboto;
+  cursor: pointer;
+}
+
+.visit-title {
+  margin-right: 5px;
+  color: #8389b4;
+}
+
+.similar-jobs-container {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.similar-jobs-card {
+  margin: 10px;
+}

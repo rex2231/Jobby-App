@@ -1,0 +1,45 @@
+.header-container {
+  background-color: #272625;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  list-style-type: none;
+  padding: 10;
+  margin: 0;
+}
+
+.websiteLogo {
+  height: 40px;
+  width: 125px;
+}
+
+.h-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #5c66e7;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  height: 33px;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: flex;
+  color: white;
+}
+
+.menu-item {
+  color: white;
+  margin: 10px;
+}

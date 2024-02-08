@@ -1,0 +1,147 @@
+.jobs-route-bg {
+  /* background-color: #010001; */
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.jobs-page-container {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: black;
+  color: white;
+}
+
+.user-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.user-card-heading {
+  color: #7f8fe8;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.user-card-bio {
+  color: black;
+}
+
+.search-options-container {
+  min-width: 20vw;
+}
+
+.type-of-employment-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.salary-range-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-route-sub-heading {
+  font-size: 16px;
+}
+
+.search-options-container {
+  padding: 30px;
+}
+
+.search-button {
+  all: initial;
+  cursor: pointer;
+}
+
+.search-container {
+  background-color: #1f1e1d;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 25vw;
+  border-radius: 5px;
+}
+
+.job-search-input-field {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  flex-grow: 1;
+}
+
+.search-icon {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+  margin-top: 30px;
+  color: white;
+}
+
+.retry-button {
+  border-radius: 5px;
+  background-color: #4946de;
+  color: white;
+  padding: 5px;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-retry-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 70vw;
+}
+
+.profile-loader-container {
+  height: 240px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-list-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
